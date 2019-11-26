@@ -1,0 +1,14 @@
+->First install python in your machine.
+->Now i assumed python is working on your machine.
+->Now open your terminal and paste this cammand-- > pip install Telethon
+->now just go into project directory.
+->enter your config into config.py file.
+->there are three scripts.
+->first we will run script for fetch members from channels.
+    we will run first script by using this cammand ->  python scrap_members.py 
+    this will create a csv file into project folder which have a list of members.
+    Note -> Please fetch members from channels one by one because members will be replace not overwrite. 
+->now we have csv of users so we can send an invite to those all users or we can add those users in our channels.
+->first we will send invite to users by run script -> python send_invite.py
+->if we want to add users to our channel we will run cammand - > python add_members.py
+
